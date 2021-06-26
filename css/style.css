@@ -131,9 +131,10 @@
 /* extra */
 .freelancer-available{
     height: 50vh;
-    background-image: url("../image/port1.jpg");
+    background-image: url("../image/apple.jpg");
     display: flex;
     background-size: cover;
+
         
     
 }
