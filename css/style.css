@@ -61,21 +61,50 @@
     /* color: #ffffff; */
     
 }
-.navbar-bg{
-    background-color:rgb(240, 233, 233);
+
+
+ /* .navbar-bg{
+    background-color:rgb(245, 190, 190);
     opacity: .5;
     
 
-}
+}  */
 
 .navbar-bg a,.navbar-bg a:hover,.navbar-bg a:focus{
     color: #000;
 }
-
-.navbar-bg .dropdown-menu a:hover{
-    background-color: black;
-    color:rgb(241, 235, 235)
+.navbar-drop .dropdown-menu {
+    margin-top: 0px;
 }
+
+.navbar-drop .dropdown-menu a{
+    /* background-color: rgb(240, 230, 230); */
+    /* background-color: rgb(188, 201, 206); */
+    background-color: #a50505;
+    color: #d5dfdfef;
+   font-size: 13px;
+
+
+
+}
+.dropdown-menu .dropdown-item{
+    background-color: #000000;
+
+}
+
+.dropdown-divider{
+    background-color: #000000;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+
+.navbar-drop .dropdown-menu a:hover{
+    background-color: #000;
+    color:rgb(241, 235, 235);
+    
+
+}
+
 
 .red a{
     /* color:rgb(190, 4, 4) ; */
@@ -155,14 +184,7 @@
     flex-wrap: wrap;
    
 }
-/* 
-@media (min-width: 768px) and (max-width: 992px) {
-    .center-block {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  } */
+
 
  
 
@@ -209,6 +231,19 @@
     background-color: rgb(247, 239, 239);
     
 }
+@media  screen and (max-width:750px) {
+                 .contact form{
+                     margin-top: 20px;
+                     padding: 10px;
+                 }
+                 .contact-item{
+                     padding: 5px 15px;
+                 }
+                
+
+}
+
+
 
 /* footer */
 .footer{
